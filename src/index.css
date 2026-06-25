@@ -1,0 +1,21 @@
+@import "tailwindcss";
+/* #0B0B0B   negro principal
+#171717   negro secundario
+#F5F5F5   blanco elegante
+#C8A97E   dorado premium
+#E7D7C1   beige premium */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #071A3D;
+}
+
+#root {
+  min-height: 100vh;
+}
