@@ -102,7 +102,7 @@ function BrandsSection() {
               />
 
               {/* NOMBRE */}
-              <h3 className="
+              <h3 translate="no" className="
                 text-[#1F2A44]
                 font-medium
                 tracking-wide
