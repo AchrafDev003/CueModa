@@ -16,37 +16,43 @@ function CampanaCue() {
 
       {/* HERO */}
 
-      <section className="relative h-screen">
+      <section className="relative h-[260svh] overflow-hidden">
 
         <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="
-            absolute
-            inset-0
-            w-full
-            h-full
-            object-cover
-          "
-        >
-          <source src={campaignVideo} type="video/mp4" />
-        </video>
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="
+    absolute
+    inset-0
+    
+    w-full
+    h-full
+    object-cover
+    object-center
+    scale-[1.05]
+  "
+>
+  <source src={campaignVideo} type="video/mp4" />
+</video>
 
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 " />
+<div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/50" />
 
         <div
-          className="
-            relative
-            z-10
-            h-full
-            flex
-            items-center
-            justify-center
-            text-center
-            px-6
-          "
+         className="
+  relative
+  z-10
+  h-full
+  flex
+  items-center
+  justify-center
+  text-center
+  px-6
+  pt-24
+  md:pt-0
+"
         >
           <motion.div
             initial={{ opacity: 0 }}
@@ -267,7 +273,7 @@ function CampanaCue() {
           </p>
 
           <a
-            href="https://wa.me/34657891449"
+            href="https://wa.me/34625165311"
             target="_blank"
             rel="noreferrer"
             className="

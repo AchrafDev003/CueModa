@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../../assets/logos/logo.jpg";
+import logo from "../../assets/logos/logo3.png";
 import { useScrollToSection } from "../../hooks/useScrollToSection";
 
 function Navbar() {
@@ -47,7 +47,7 @@ function Navbar() {
             <motion.div
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
-              className="relative w-14 h-14 rounded-full overflow-hidden border border-[#C8A97E]/30"
+              className="relative w-20 h-18 p-2 rounded-full overflow-hidden border border-[#C8A97E]/30"
             >
               <img src={logo} alt="Cúe Moda" className="w-full h-full object-cover" />
             </motion.div>
