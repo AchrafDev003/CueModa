@@ -62,7 +62,7 @@ function ContactSection() {
             </h3>
 
             <p className="text-gray-400 leading-7">
-              Calle Álamos 12<br />
+              Avenida Andalucía 9<br />
               23680 Alcalá la Real
             </p>
           </motion.div>
@@ -91,7 +91,7 @@ function ContactSection() {
 
             <p className="text-gray-400">
               +34 953 581 802<br />
-              +34 657 891 449
+              +34 625 165 311
             </p>
           </motion.div>
 
@@ -134,7 +134,7 @@ function ContactSection() {
           className="text-center mt-20"
         >
           <a
-            href="https://wa.me/34657891449"
+            href="https://wa.me/34625165311"
             target="_blank"
             rel="noreferrer"
             className="

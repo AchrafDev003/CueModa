@@ -88,9 +88,9 @@ function Footer() {
             </h4>
 
             <ul className="mt-6 space-y-3 text-gray-400">
-              <li>Calle Álamos 12, Alcalá la Real</li>
+              <li>Avenida Andalucía 9, 23680 Alcalá la Real</li>
               <li>+34 953 581 802</li>
-              <li>+34 657 891 449</li>
+              <li>+34 625 165 311</li>
             </ul>
 
             {/* SOCIAL */}
@@ -107,7 +107,7 @@ function Footer() {
               </a>
 
               <a
-                href="https://wa.me/34657891449"
+                href="https://wa.me/34625165311"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-gray-400 hover:text-white transition"

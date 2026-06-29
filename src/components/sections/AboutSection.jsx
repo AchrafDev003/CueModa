@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import about from "../../assets/images/about.png";
+import about from "../../assets/images/about1.jpeg";
 import { FaInstagram } from "react-icons/fa";
 
 const container = {
@@ -185,9 +185,9 @@ function AboutSection() {
       relative
       z-20
       w-full
-      h-[380px]
+      h-[480px]
       sm:h-[450px]
-      md:h-[520px]
+      md:h-[680px]
       object-cover
       rounded-[40px]
       border

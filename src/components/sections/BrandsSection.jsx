@@ -7,7 +7,7 @@ import pepe from "../../assets/brands/brand2.png";
 import lois from "../../assets/brands/brand3.png";
 import jack from "../../assets/brands/brand4.png";
 import levis from "../../assets/brands/brand5.png";
-import only from "../../assets/brands/brand5.png";
+import only from "../../assets/brands/brand6.png";
 
 const brands = [
   { name: "Privata", logo: tommy },
@@ -15,7 +15,7 @@ const brands = [
   { name: "Walking Pitas", logo: lois },
   { name: "Ojal & Boton", logo: jack },
   { name: "Spagnolo", logo: levis },
-  { name: "Only & Sons", logo: only },
+  { name: "TIFFOSI", logo: only },
 ];
 
 function BrandsSection() {
@@ -89,8 +89,8 @@ function BrandsSection() {
                 src={brand.logo}
                 alt={brand.name}
                 className="
-                  w-28
-                  h-16
+                  w-32
+                  h-20
                   object-contain
                   
                   opacity-80

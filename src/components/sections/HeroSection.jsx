@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { FaWhatsapp } from "react-icons/fa";
+import ProductModal from "../layout/ProductModal";
 
 import article1 from "../../assets/images/gallery5.png";
 import article2 from "../../assets/images/article12.png";
@@ -39,7 +40,7 @@ const featuredProducts = [
 
 function HeroSection() {
   const [current, setCurrent] = useState(0);
-
+  const [selectedProduct, setSelectedProduct] = useState(null);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) =>
@@ -194,7 +195,7 @@ via-[#E7D7C1]/10
 
             <div className="flex flex-wrap gap-4 mt-10">
               <a
-  href="https://wa.me/34613266710?text=Hola,%20he%20visitado%20la%20web%20de%20Cúe%20Moda."
+  href="https://wa.me/34625165311?text=Hola,%20he%20visitado%20la%20web%20de%20Cúe%20Moda."
   target="_blank"
   rel="noopener noreferrer"
   className="
@@ -401,21 +402,22 @@ mt-0
       </p>
 
       <button
-        className="
-        mt-6
-        px-8
-        py-4
-        rounded-full
-        bg-[#C8A97E]
-        text-black
-        font-semibold
-        hover:scale-105
-        transition-all
-        duration-300
-        "
-      >
-        Ver Producto
-      </button>
+  onClick={() => setSelectedProduct(featuredProducts[current])}
+  className="
+    mt-6
+    px-8
+    py-4
+    rounded-full
+    bg-[#C8A97E]
+    text-black
+    font-semibold
+    hover:scale-105
+    transition-all
+    duration-300
+  "
+>
+  Ver Producto
+</button>
     </motion.div>
 
     {/* MINIATURAS */}
@@ -477,6 +479,10 @@ mt-0
 
 </div>
 </div>
+<ProductModal
+  product={selectedProduct}
+  onClose={() => setSelectedProduct(null)}
+/>
 </section>
 );
 }
