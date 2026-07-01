@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-import trendVideo from "../../assets/images/trend1.mp4";
+import trendVideo from "../../assets/images/trend2.mp4";
 import saleImg from "../../assets/images/gallery3.jpg";
 import collectionImg from "../../assets/images/article1.jpg";
 

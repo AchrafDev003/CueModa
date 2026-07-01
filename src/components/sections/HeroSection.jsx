@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import ProductModal from "../layout/ProductModal";
 
-import article1 from "../../assets/images/gallery5.png";
-import article2 from "../../assets/images/article12.png";
-import article3 from "../../assets/images/gallery21.png";
-import article4 from "../../assets/images/gallery41.png";
+import article1 from "../../assets/images/article6.png";
+import article2 from "../../assets/images/article7.png";
+import article3 from "../../assets/images/article3.png";
+import article4 from "../../assets/images/article4.png";
 const featuredProducts = [
   {
     id: 1,
@@ -24,14 +24,14 @@ const featuredProducts = [
   },
   {
     id: 3,
-    image: article3,
+    image: article4,
     title: "Look Casual",
     category: "Exclusivo",
     price: "69,99€",
   },
   {
     id: 4,
-    image: article4,
+    image: article3,
     title: "Moda Urbana",
     category: "Destacado",
     price: "79,99€",
@@ -397,9 +397,7 @@ mt-0
         {featuredProducts[current].title}
       </h3>
 
-      <p className="text-[#E7D7C1] text-2xl mt-3">
-        {featuredProducts[current].price}
-      </p>
+      
 
       <button
   onClick={() => setSelectedProduct(featuredProducts[current])}

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
-import campaignVideo from "../assets/images/trend1.mp4";
+import campaignVideo from "../assets/images/trend2.mp4";
 
 import image1 from "../assets/images/gallery1.png";
 import image2 from "../assets/images/gallery2.jpg";
@@ -18,16 +18,19 @@ function CampanaCue() {
 
       <section className="relative h-[260svh] overflow-hidden">
 
-        <video
+   <video
   autoPlay
   muted
   loop
   playsInline
   className="
     absolute
-    inset-0
-    
-    w-full
+    p-4
+    top-1/2
+    left-1/2
+    -translate-x-1/2
+    -translate-y-1/2
+    w-50rem
     h-full
     object-cover
     object-center
@@ -233,12 +236,12 @@ function CampanaCue() {
               mt-16
             "
           >
-            <div>Tommy Hilfiger</div>
-            <div>Levi's</div>
-            <div>Pepe Jeans</div>
-            <div>Jack & Jones</div>
-            <div>Lois</div>
-            <div>Only & Sons</div>
+            <div>Privata</div>
+<div>Cool Bike</div>
+<div>Walking Pitas</div>
+<div>Ojal & Boton</div>
+<div>Spagnolo</div>
+<div>TIFFOSI</div>
           </div>
 
         </div>
