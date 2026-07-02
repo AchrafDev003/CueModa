@@ -13,7 +13,7 @@ const featuredProducts = [
     image: article1,
     title: "Americana Premium",
     category: "Nueva Colección",
-    price: "89,99€",
+    price: "49,90€",
   },
   {
     id: 2,
