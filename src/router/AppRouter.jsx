@@ -1,9 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "../components/layout/ScrollToTop";
 import Home from "../pages/Home";
-import Brands from "../pages/Brands";
-import Events from "../pages/Events";
-import Contact from "../pages/Contact";
+
 import NuevaColeccion from "../pages/NuevaColeccion";
 import CampanaCue from "../pages/CampanaCue";
 import Rebajas from "../pages/Rebajas";

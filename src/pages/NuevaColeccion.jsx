@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Seo from "../components/common/Seo";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
@@ -11,6 +12,11 @@ import look3 from "../assets/images/gallery3.jpg";
 function NuevaColeccion() {
   return (
     <>
+    <Seo
+    title="Nueva Colección | Cúe Moda"
+    description="Conoce la nueva colección de Cúe Moda con las últimas tendencias para hombre."
+    url="https://cuemoda.com/actualidad/nueva-coleccion"
+/>
       <Navbar />
       <main className="bg-[#F8F6F2] text-[#111] overflow-hidden">
 
@@ -205,7 +211,7 @@ function NuevaColeccion() {
           </p>
 
           <a
-            href="https://wa.me/34657891449"
+            href="https://wa.me/34625165311"
             target="_blank"
             rel="noreferrer"
             className="

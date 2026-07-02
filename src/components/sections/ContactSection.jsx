@@ -90,7 +90,7 @@ function ContactSection() {
             </h3>
 
             <p className="text-gray-400">
-              +34 953 581 802<br />
+              +34 953 585 292<br />
               +34 625 165 311
             </p>
           </motion.div>

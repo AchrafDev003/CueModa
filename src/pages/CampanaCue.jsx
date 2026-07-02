@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Seo from "../components/common/Seo";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
@@ -11,6 +12,11 @@ import image3 from "../assets/images/gallery3.jpg";
 function CampanaCue() {
   return (
     <>
+    <Seo
+    title="Campaña CÚE | Moda para Hombre | Cúe Moda"
+    description="Descubre la campaña de Cúe Moda y nuestra visión de la moda masculina."
+    url="https://cuemoda.com/actualidad/campana-cue"
+  />
       <Navbar />
     <main className="bg-[#F8F6F2] text-[#111] overflow-hidden">
 

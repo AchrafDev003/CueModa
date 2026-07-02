@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Seo from "../components/common/Seo";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
@@ -298,7 +299,7 @@ function Rebajas() {
           </p>
 
           <a
-            href="https://wa.me/34657891449"
+            href="https://wa.me/34625165311"
             target="_blank"
             rel="noreferrer"
             className="

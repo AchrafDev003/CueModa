@@ -89,7 +89,7 @@ function Footer() {
 
             <ul className="mt-6 space-y-3 text-gray-400">
               <li>Avenida Andalucía 9, 23680 Alcalá la Real</li>
-              <li>+34 953 581 802</li>
+              <li>+34 953 585 292</li>
               <li>+34 625 165 311</li>
             </ul>
 
