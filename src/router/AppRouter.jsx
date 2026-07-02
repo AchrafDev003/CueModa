@@ -14,9 +14,7 @@ function AppRouter() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/brands" element={<Brands />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/contact" element={<Contact />} />
+        
         <Route
         path="/actualidad/nueva-coleccion"
         element={<NuevaColeccion />}

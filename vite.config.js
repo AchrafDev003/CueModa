@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    sitemap({
+      hostname: "https://cuemoda.com"
+    }),
   ],
 })
