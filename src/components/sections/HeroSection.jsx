@@ -351,7 +351,7 @@ via-[#E7D7C1]/10
         z-10
         w-full
         max-w-[700px]
-        max-h-[400px]
+        max-h-[380px]
         object-contain
         mx-auto
         drop-shadow-[0_30px_70px_rgba(0,0,0,.45)]
@@ -385,7 +385,7 @@ border-[#C8A97E]/15
 shadow-[0_20px_60px_rgba(200,169,126,0.15)]
 rounded-3xl
 px-8
-py-6
+py-5
 mt-0
 "
     >
