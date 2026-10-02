@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import img1 from "../../assets/images/gallery1.png";
+import img1 from "../../assets/images/gallery1.jpg";
 import img2 from "../../assets/images/gallery2.jpg";
 import img3 from "../../assets/images/gallery3.jpg";
 import img4 from "../../assets/images/gallery4.jpg";
@@ -10,6 +10,7 @@ import img7 from "../../assets/images/gallery7.jpg";
 import img8 from "../../assets/images/gallery8.jpg";
 import img9 from "../../assets/images/gallery9.jpg";
 import img10 from "../../assets/images/gallery10.jpg";
+import img11 from "../../assets/images/gallery11.jpg";
 import img12 from "../../assets/images/gallery12.jpg";
 import img13 from "../../assets/images/gallery13.jpg";
 
@@ -24,7 +25,7 @@ const images = [
   { src: img8, span: "md:col-span-2" },
   { src: img9, span: "" },
   { src: img10, span: "md:row-span-2 md:col-span-1" },
-  { src: img10 ?? img1, span: "" },
+  { src: img11 ?? img1, span: "" },
   { src: img12 ?? img2, span: "md:col-span-2" },
   { src: img13 ?? img3, span: "" },
 ];

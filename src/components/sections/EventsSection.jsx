@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 import trendVideo from "../../assets/images/trend2.mp4";
-import saleImg from "../../assets/images/gallery3.jpg";
+import weddingImg from "../../assets/images/boda.jpg";
 import collectionImg from "../../assets/images/article1.jpg";
 
 const news = [
@@ -25,13 +25,12 @@ const news = [
     slug: "/actualidad/campana-cue",
   },
   {
-    title: "Rebajas Exclusivas",
-    description:
-      "Selección de artículos con descuentos especiales por tiempo limitado.",
-    media: saleImg,
+    title: "Especial Bodas",
+   description:
+  "Ven a descubrir nuestra propuesta especial para bodas. Te esperamos en nuestro stand desde el 16 de octubre con una sorpresa preparada para ti.",
+    media: weddingImg,
     type: "image",
-    tag: "SALE",
-    slug: "/actualidad/rebajas",
+    tag: "16 OCT",
   },
 ];
 
@@ -202,34 +201,52 @@ function EventsSection() {
                   {item.description}
                 </p>
 
-                <Link
-  to={item.slug}
-  className="
-    mt-8
-    inline-flex
-    items-center
-    gap-3
-    text-[#C8A977]
-    uppercase
-    tracking-[4px]
-    text-xs
-    hover:text-[#d4b47b]
-    transition-all
-    duration-300
-  "
->
-  Descubrir
+                {item.slug ? (
+                  <Link
+                    to={item.slug}
+                    className="
+                      mt-8
+                      inline-flex
+                      items-center
+                      gap-3
+                      text-[#C8A977]
+                      uppercase
+                      tracking-[4px]
+                      text-xs
+                      hover:text-[#d4b47b]
+                      transition-all
+                      duration-300
+                    "
+                  >
+                    Descubrir
 
-  <span
-    className="
-      transition-transform
-      duration-300
-      group-hover:translate-x-2
-    "
-  >
-    →
-  </span>
-</Link>
+                    <span
+                      className="
+                        transition-transform
+                        duration-300
+                        group-hover:translate-x-2
+                      "
+                    >
+                      →
+                    </span>
+                  </Link>
+                ) : (
+                  <span
+                    className="
+                      mt-8
+                      inline-flex
+                      items-center
+                      gap-3
+                      text-[#C8A977]
+                      uppercase
+                      tracking-[4px]
+                      text-xs
+                    "
+                  >
+                    Desde el 16 de octubre
+                  </span>
+                )}
+
               </div>
 
             </motion.div>

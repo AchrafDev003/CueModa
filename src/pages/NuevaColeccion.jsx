@@ -20,84 +20,96 @@ function NuevaColeccion() {
       <Navbar />
       <main className="bg-[#F8F6F2] text-[#111] overflow-hidden">
 
-      {/* HERO */}
+    {/* HERO */}
 
-      <section className="relative h-screen">
+<section className="relative h-screen flex items-center justify-center overflow-hidden bg-[#111]">
 
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
+  {/* CONTENEDOR DEL VÍDEO */}
+  <div className="relative w-[200vw] max-w-[1240px] h-[90vh] flex items-center justify-center">
+
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="
+      mt-[10vh]
+        max-w-full
+        max-h-full
+        w-auto
+        h-auto
+        object-contain
+        rounded-2xl
+        shadow-2xl
+      "
+    >
+      <source src={heroVideo} type="video/mp4" />
+    </video>
+
+    {/* OSCURECER SOLO EL VÍDEO */}
+    <div className="absolute inset-0 rounded-2xl bg-black/35" />
+
+    {/* TEXTO */}
+    <div
+      className="
+        absolute
+        inset-0
+        z-10
+        flex
+        items-center
+        justify-center
+        text-center
+        px-6
+      "
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+
+        <span
           className="
-            absolute
-            inset-0
-            w-full
-            h-full
-            object-cover
+            uppercase
+            tracking-[14px]
+            text-[#C8A977]
+            text-sm
           "
         >
-          <source src={heroVideo} type="video/mp4" />
-        </video>
+          CÚE MODA
+        </span>
 
-        <div className="absolute inset-0 bg-black/45" />
-
-        <div
+        <h1
           className="
-            relative
-            z-10
-            h-full
-            flex
-            items-center
-            justify-center
-            text-center
-            px-6
+            text-white
+            text-5xl
+            md:text-8xl
+            font-light
+            mt-8
           "
         >
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-          >
-            <span
-              className="
-                uppercase
-                tracking-[14px]
-                text-[#C8A977]
-                text-sm
-              "
-            >
-              CÚE MODA
-            </span>
+          Nueva Colección
+        </h1>
 
-            <h1
-              className="
-                text-white
-                text-5xl
-                md:text-8xl
-                font-light
-                mt-8
-              "
-            >
-              Nueva Colección
-            </h1>
+        <p
+          className="
+            text-white/80
+            mt-8
+            max-w-2xl
+            mx-auto
+            text-lg
+          "
+        >
+          Elegancia contemporánea, estilo auténtico y
+          prendas seleccionadas para cada ocasión.
+        </p>
 
-            <p
-              className="
-                text-white/80
-                mt-8
-                max-w-2xl
-                mx-auto
-                text-lg
-              "
-            >
-              Elegancia contemporánea, estilo auténtico y
-              prendas seleccionadas para cada ocasión.
-            </p>
-          </motion.div>
-        </div>
+      </motion.div>
+    </div>
 
-      </section>
+  </div>
+
+</section>
 
       {/* INTRO */}
 
