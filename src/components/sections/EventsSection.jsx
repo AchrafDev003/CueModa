@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 import trendVideo from "../../assets/images/trend2.mp4";
-import weddingImg from "../../assets/images/boda.jpg";
+import weddingImg from "../../assets/images/boda.png";
 import collectionImg from "../../assets/images/article1.jpg";
 
 const news = [
@@ -26,11 +26,11 @@ const news = [
   },
   {
     title: "Especial Bodas",
-   description:
-  "Ven a descubrir nuestra propuesta especial para bodas. Te esperamos en nuestro stand desde el 16 de octubre con una sorpresa preparada para ti.",
+    description:
+  "Visítanos en Entresíes del 16 al 18 de octubre y descubre nuestra propuesta especial para bodas. Te hemos preparado una sorpresa.",
     media: weddingImg,
     type: "image",
-    tag: "16 OCT",
+    tag: "16 — 18 OCT",
   },
 ];
 
